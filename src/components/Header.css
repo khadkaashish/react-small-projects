@@ -8,3 +8,13 @@
   align-items: center;
   font-weight: 900;
 }
+
+@media (max-width: 600px) {
+  .header__options {
+    flex-direction: column;
+    height: fit-content;
+  }
+  .header__optionsTitle {
+    padding: 8px;
+  }
+}
